@@ -11,7 +11,7 @@ const Cart = () => {
     return (
       <div className='cart-empty'>
         <h3 >Your Cart is Empty</h3>
-        <button onClick={() => navigate("/")} className="btn">Go To Page</button>
+        <button onClick={() => navigate("/store")} className="btn">Go To Page</button>
       </div>
     );
   }

@@ -9,7 +9,7 @@ const Checkout = () => {
 
         <div className='checkout'>
             <h3>Thank You For Using My App</h3>
-            <button onClick={() => navigate("/")} className="btn"> Go To Page</button>
+            <button onClick={() => navigate("/store")} className="btn"> Go To Page</button>
         </div>
 
 

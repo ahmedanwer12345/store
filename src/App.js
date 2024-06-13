@@ -10,14 +10,11 @@ function App() {
   return (
     <div className="container">
       <CartProvider>
-       
       <BrowserRouter>
       <Routes>
-      <Route path="/" element={<><Navbar /> <Products /> </>} />
+      <Route path="/store" element={<><Navbar /> <Products /> </>} />
       <Route path="/cart" element={<Cart />} />
       <Route path="/cart/checkout" element={<Checkout />} />
-
-
       </Routes>
     </BrowserRouter>
     </CartProvider>
